@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>Navigation bar</title>
+  </head>
+  <body class="conatiner-fluid bg-altlight">
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand text-light align-self-center">
+          <img
+            src="../imgs/logo.png"
+            class="d-inline-block align-text-top"
+            width="30"
+            alt=""
+          />
+          <span class="">KNUST</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navItems"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="d-sm-none justify-content-md-evenly collapse navbar-collapse"
+          id="navItems"
+        >
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item">
+              <a href="" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script src="../js/bootstrap.bundle.js"></script>
+  </body>
+</html>

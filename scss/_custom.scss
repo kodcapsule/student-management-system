@@ -1,0 +1,19 @@
+// CUSTOM VARIABLES
+$primary: #2c3e50;
+
+// IMPORTING FUNCTIONS AND VARIABLES
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-theme-colors: (
+  "altlight": #f2ebfa,
+  "altdark": #522192,
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+// IMPORING BOOSTRAP 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.test101 {
+  background-color: $primary;
+}
